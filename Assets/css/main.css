@@ -27,6 +27,9 @@ section {
     overflow: visible;
 }
 .product {
+    flex-basis: 0rem;
+    flex-grow: 999;
+    min-width: 60%;
     color: #fff;
     background-color: rgba( 1, 1,  1,  0.66);
     width: 30%;
