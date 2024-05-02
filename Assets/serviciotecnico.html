@@ -6,6 +6,7 @@
     <title>Servicio Técnico de Instrumentos Musicales</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/servicios.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -19,18 +20,41 @@
         <a href="contacto.html">Contacto</a>
     </nav>
     <section id="servicios">
-        <h2>Nuestros Servicios</h2>
-        <p>Ofrecemos una amplia gama de servicios de reparación y mantenimiento para instrumentos musicales, incluyendo:</p>
-        <div>
-        <ul>
-            <li>Ajustes y calibraciones</li>
-            <li>Mantención de circuitos</li>
-            <li>Limpieza y mantenimiento general</li>
-            <li>Restauración de instrumentos acústicos</li>
-            <li>Lutheria y construcción</li>
-        </ul> </div> 
-    </section>
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        </head>
+        <body>
+            <!-- Carrusel -->
+            <div id="carrusel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="IMG/Fenderjpn.JPG" class="d-block w-100" alt="Servicio 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="IMG/tocandoguitarra.jpeg" class="d-block w-100" alt="Servicio 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="IMG/siluetajazz.jpeg" class="d-block w-100" alt="Servicio 3">
+                    </div>
+                    <!-- Aqui irán el resto de imagenes y secciones -->
+                </div>
+                <a class="carousel-control-prev" href="#carrusel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carrusel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        
+            <!-- Enlace al archivo JavaScript de Bootstrap y jQuery -->
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <footer>
         <p>Derechos de autor &copy; 2024 Instrumentos 1371</p>
     </footer>
