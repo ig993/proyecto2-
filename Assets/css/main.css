@@ -2,6 +2,9 @@ body {
     font-family:"Tilt Neon", Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url(https://file+.vscode-resource.vscode-cdn.net/Users/ignaciogabler/Desktop/Proyecto%20Sitio%20web/Sitio%20web/proyecto2-/Assets/IMG/fondodepantallabeck.jpeg?version%3D1715013439348);   
+    background-size: cover;
+    background-position: center;
 }
 header {
     background-color: #333;
@@ -21,7 +24,7 @@ section {
     justify-content: space-around;
 }
 .musicman {
-    background-image: url(../IMG/fondodelsitio.jpeg);
+    background-image: url(Users/ignaciogabler/Desktop/Proyecto%20Sitio%20web/Sitio%20web/proyecto2-/Assets/IMG/fondodepantallabeck.jpeg?version%3D1715013439348);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: visible;
