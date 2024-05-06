@@ -1,0 +1,54 @@
+body {
+    font-family:"Tilt Neon", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://file+.vscode-resource.vscode-cdn.net/Users/ignaciogabler/Desktop/Proyecto%20Sitio%20web/Sitio%20web/proyecto2-/Assets/IMG/fondodepantallabeck.jpeg?version%3D1715013439348);   
+    background-size: cover;
+    background-position: center;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+nav {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px 0;
+}
+section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.musicman {
+    background-image: url(Users/ignaciogabler/Desktop/Proyecto%20Sitio%20web/Sitio%20web/proyecto2-/Assets/IMG/fondodepantallabeck.jpeg?version%3D1715013439348);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: visible;
+}
+.product {
+    flex-basis: 0rem;
+    flex-grow: 999;
+    min-width: 60%;
+    color: #fff;
+    background-color: rgba( 1, 1,  1,  0.66);
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.product h2 { 
+    font-family: "roboto"; 
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
